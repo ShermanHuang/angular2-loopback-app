@@ -1,0 +1,7 @@
+<h1>Hello!</h1>
+<p>Please enter your name:</p>
+<input type="text" [(ngModel)]="username"/>
+<button (click)="getResponseTextByUsername()">Click here!</button>
+<button (click)="getResponseTextToThankUser()">Click here!</button>
+<p>{{ responseText }}</p>
+<p>{{ responseTextToThankUser }}</p>

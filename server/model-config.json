@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "user",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "user",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "user",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "user",
+    "public": false
+  },
+  "user": {
+    "dataSource": "user",
+    "public": true
+  }
+}
